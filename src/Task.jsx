@@ -8,7 +8,6 @@ export function Task({task}) {
   }
 
   if (!task) return
-  if(!isCheched ) {
   return (
     <li className={`w-full bg-white p-4 rounded-lg border border-neutral-300 flex justify-between items-center`}>
       <div className="flex gap-3">
@@ -17,6 +16,6 @@ export function Task({task}) {
       </div>
       <span>X</span>
     </li>
-  )}
+  )
 }
 
